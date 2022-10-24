@@ -1,1 +1,15 @@
-This is a Ruby program
+<h1 align="center">Day 21 of The Hacking Project: The Gossip Project - Sinatra</h1>
+
+Here are all the exercises in Ruby from day 21 of The Hacking Project: my first web applicaton using Sinatra.
+
+### How to launch ###
+
+```ruby
+$ bundle exec shotgun -p 4567  
+```
+
+### Main features ###
+
+* The site's home page will display all the gossip we have in the base.
+* This home page will give a link for a form where anyone can add a gossip.
+* All Gossips have a dedicated page, from which anyone can also edit the Gossip.

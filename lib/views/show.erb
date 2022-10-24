@@ -9,6 +9,11 @@
       Son auteur : <%= gossip.author %><br/>
       Le contenu du gossip : <%= gossip.content %><br/>
     </p>
+    <p><h3>Ajoute un commetaire:</h3>
+    <form action='/gossips/:id/' method='POST'>
+    Ton nom :  <input type='text' name='gossip_comment_author'/><br/>
+    Ton commentaire :  <input type='text' name='gossip_comment'/><br/>
+    <input type='submit'/></p>
     <p><b>Si tu souhaite modifier ce gossip, clique ici: <a href="/gossips/<%= params["id"] %>/edit/"><button>Modifier ce gossip</button></a></b></p>
     <a href="/">Revenir à la page des gossips.</a>
   </body>
