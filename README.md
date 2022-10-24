@@ -19,4 +19,4 @@ Open URL: `localhost:4567`
 
 ### Features that doesn't work ###
 
-* Add a comment on a gossip
+* Add a comment on a gossip.
