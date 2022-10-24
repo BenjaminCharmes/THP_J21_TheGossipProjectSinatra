@@ -2,6 +2,8 @@
 
 Here are all the exercises in Ruby from day 21 of The Hacking Project: my first web applicaton using Sinatra.
 
+<h2 align="center">🎉 Day 6 of the Full Stack training 🎉</h2>
+
 ### How to launch ###
 
 ```ruby
