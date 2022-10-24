@@ -11,7 +11,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/gossips/new/' do
-    Gossip.new(params["gossip_content"], params["gossip_author"], params["gossip_comment"]).save
+    Gossip.new(params["gossip_content"], params["gossip_author"]).save
     redirect '/'
   end
 
@@ -26,7 +26,7 @@ class ApplicationController < Sinatra::Base
 
   post '/gossips/:id/edit/' do
     id = params["id"].to_i
-    Gossip.update(id, params["gossip_author"], params["gossip_content"], params["gossip_comment"])
+    Gossip.update(id, params["gossip_content"], params["gossip_author"])
     redirect '/'
   end
 
