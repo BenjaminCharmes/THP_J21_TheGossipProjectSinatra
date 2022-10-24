@@ -9,6 +9,7 @@ Here are all the exercises in Ruby from day 21 of The Hacking Project: my first 
 ```ruby
 $ bundle exec shotgun -p 4567  
 ```
+Open URL: `localhost:4567`
 
 ### Main features ###
 
