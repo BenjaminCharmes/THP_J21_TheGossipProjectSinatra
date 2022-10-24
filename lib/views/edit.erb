@@ -7,7 +7,7 @@
     <p>Édites le gossip <%= params["id"].to_i + 1%>:</p>
     <form action='/gossips/<%= params["id"]%>/edit/' method='POST'>
       Ton nom :  <input type='text' name='gossip_author'/><br/>
-      Nouveau potin : <input type='text' name='gossip_content'/><br/>
+      Nouveau gossip : <input type='text' name='gossip_content'/><br/>
       <input type='submit'/>
     </form>
   </body>
