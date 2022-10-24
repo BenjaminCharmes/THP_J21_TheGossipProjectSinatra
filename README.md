@@ -16,3 +16,7 @@ Open URL: `localhost:4567`
 * The site's home page will display all the gossip we have in the base.
 * This home page will give a link for a form where anyone can add a gossip.
 * All Gossips have a dedicated page, from which anyone can also edit the Gossip.
+
+### Features that doesn't work ###
+
+* Add a comment on a gossip
